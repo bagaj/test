@@ -1,0 +1,37 @@
+Command prompt Windows basic commands
+    1. cd (change directory)
+        cd\
+        cd..
+        cd /d %userprofile%\Desktop
+        :d to change drive
+        cd /d C:\Windows to change the drive and directory at same time
+    2. dir (shows the current directory contents)
+    3. mkdir or md - making directory
+        Working like
+            mkdir FolderName
+        If u need folder name contains the spaces then
+            md "Folder Name"
+    4. ren (used ro rename files and folders)
+        ren Folder NewFolderName    or
+        ren file.extension NewFilename.extension
+    5. copy
+        copy location\subfolder\file.extension newlocation\newfilename.extension
+    6. xcopy /s /i (copy folders including their content)
+        /s -The /s parameter ensures that all the directories and subdirectories are going to be copied, except the ones that are empty.
+        /i -The /i parameter creates a new directory if the destination folder does not exist and copies all the files in it.
+
+        xcopy /s /i D:\directory c:\Backup_Directory
+    7. del (delete all files in current directory)
+        del c:\directory
+        del file.extension
+        del *.docx
+        del test*.* (delete all files in current directory whose name begins with "test")
+        del * (delete all files in current directory)
+    8. rd (delete folder)
+        rd folder
+    9. To launch file u need navigate to the folder that contains the executable file and type this file name with extension
+        cd /d c:\Directory 
+            file.exe
+    10. help (to get help)
+        help cd
+        cd /?
