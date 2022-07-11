@@ -35,4 +35,3 @@ Command prompt Windows basic commands
     10. help (to get help)
         help cd
         cd /?
-    End of list.
